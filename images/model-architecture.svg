@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+    <!-- Background -->
+    <rect width="1200" height="900" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="600" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#2d3436">DeepSeek Model Architectures</text>
+    <text x="600" y="70" text-anchor="middle" font-size="16" fill="#636e72">Technical Components and Evolution</text>
+
+    <!-- Base Architecture (V2) -->
+    <g transform="translate(50, 100)">
+        <rect width="300" height="200" fill="#74b9ff" rx="10" opacity="0.2"/>
+        <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-V2 Base</text>
+        
+        <!-- Architecture components -->
+        <rect x="20" y="50" width="260" height="130" fill="white" stroke="#74b9ff" stroke-width="2" rx="5"/>
+        <text x="150" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Core Components</text>
+        
+        <text x="40" y="95" font-size="12">• 236B Total Parameters</text>
+        <text x="40" y="115" font-size="12">• 21B Active Parameters/Token</text>
+        <text x="40" y="135" font-size="12">• Multi-head Latent Attention (MLA)</text>
+        <text x="40" y="155" font-size="12">• Grouped Query Attention (GQA)</text>
+        <text x="40" y="175" font-size="12">• MoE Architecture</text>
+    </g>
+
+    <!-- V3 Architecture -->
+    <g transform="translate(400, 100)">
+        <rect width="300" height="200" fill="#a8e6cf" rx="10" opacity="0.2"/>
+        <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-V3</text>
+        
+        <!-- Architecture components -->
+        <rect x="20" y="50" width="260" height="130" fill="white" stroke="#a8e6cf" stroke-width="2" rx="5"/>
+        <text x="150" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Enhanced Architecture</text>
+        
+        <text x="40" y="95" font-size="12">• 671B Total Parameters</text>
+        <text x="40" y="115" font-size="12">• 37B Active Parameters/Token</text>
+        <text x="40" y="135" font-size="12">• Auxiliary-Loss-Free Balancing</text>
+        <text x="40" y="155" font-size="12">• FP8 Mixed Precision Training</text>
+        <text x="40" y="175" font-size="12">• 128K Context Length</text>
+    </g>
+
+    <!-- R1 Architecture -->
+    <g transform="translate(750, 100)">
+        <rect width="300" height="200" fill="#ffd3b6" rx="10" opacity="0.2"/>
+        <text x="150" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-R1</text>
+        
+        <!-- Architecture components -->
+        <rect x="20" y="50" width="260" height="130" fill="white" stroke="#ffd3b6" stroke-width="2" rx="5"/>
+        <text x="150" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Reasoning Enhancement</text>
+        
+        <text x="40" y="95" font-size="12">• RL-based Training</text>
+        <text x="40" y="115" font-size="12">• ESFT Integration</text>
+        <text x="40" y="135" font-size="12">• Two-Stage RL Pipeline</text>
+        <text x="40" y="155" font-size="12">• Knowledge Distillation</text>
+        <text x="40" y="175" font-size="12">• Enhanced Reasoning Capabilities</text>
+    </g>
+
+    <!-- Specialized Models -->
+    <g transform="translate(50, 350)">
+        <!-- Coder Architecture -->
+        <rect width="250" height="180" fill="#ff8b94" rx="10" opacity="0.2"/>
+        <text x="125" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-Coder V2</text>
+        
+        <rect x="20" y="50" width="210" height="110" fill="white" stroke="#ff8b94" stroke-width="2" rx="5"/>
+        <text x="125" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Code Generation</text>
+        
+        <text x="30" y="95" font-size="12">• Based on V2 Architecture</text>
+        <text x="30" y="115" font-size="12">• 2T Code Tokens Training</text>
+        <text x="30" y="135" font-size="12">• Language-Specific Optimization</text>
+    </g>
+
+    <!-- Math Architecture -->
+    <g transform="translate(350, 350)">
+        <rect width="250" height="180" fill="#b8e994" rx="10" opacity="0.2"/>
+        <text x="125" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-Math</text>
+        
+        <rect x="20" y="50" width="210" height="110" fill="white" stroke="#b8e994" stroke-width="2" rx="5"/>
+        <text x="125" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Mathematical Reasoning</text>
+        
+        <text x="30" y="95" font-size="12">• 7B Parameter Models</text>
+        <text x="30" y="115" font-size="12">• Competition-Level Training</text>
+        <text x="30" y="135" font-size="12">• Specialized Math Tokenization</text>
+    </g>
+
+    <!-- Prover Architecture -->
+    <g transform="translate(650, 350)">
+        <rect width="250" height="180" fill="#82ccdd" rx="10" opacity="0.2"/>
+        <text x="125" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-Prover</text>
+        
+        <rect x="20" y="50" width="210" height="110" fill="white" stroke="#82ccdd" stroke-width="2" rx="5"/>
+        <text x="125" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Theorem Proving</text>
+        
+        <text x="30" y="95" font-size="12">• Lean 4 Integration</text>
+        <text x="30" y="115" font-size="12">• RLPAF Training</text>
+        <text x="30" y="135" font-size="12">• RMaxTS Implementation</text>
+    </g>
+
+    <!-- VL2 Architecture -->
+    <g transform="translate(950, 350)">
+        <rect width="250" height="180" fill="#786fa6" rx="10" opacity="0.2"/>
+        <text x="125" y="30" text-anchor="middle" font-size="16" font-weight="bold">DeepSeek-VL2</text>
+        
+        <rect x="20" y="50" width="210" height="110" fill="white" stroke="#786fa6" stroke-width="2" rx="5"/>
+        <text x="125" y="70" text-anchor="middle" font-size="14" fill="#2d3436">Vision-Language</text>
+        
+        <text x="30" y="95" font-size="12">• MoE Architecture</text>
+        <text x="30" y="115" font-size="12">• Multi-Modal Integration</text>
+        <text x="30" y="135" font-size="12">• Advanced Visual Grounding</text>
+    </g>
+
+    <!-- Common Technical Elements -->
+    <g transform="translate(200, 600)">
+        <rect width="800" height="150" fill="#dfe6e9" rx="10"/>
+        <text x="400" y="30" text-anchor="middle" font-size="16" font-weight="bold">Shared Technical Innovations</text>
+        
+        <!-- MoE -->
+        <rect x="50" y="50" width="200" height="80" fill="white" stroke="#2d3436" rx="5"/>
+        <text x="150" y="80" text-anchor="middle" font-size="14">Mixture of Experts (MoE)</text>
+        <text x="150" y="100" text-anchor="middle" font-size="12">Efficient Parameter Scaling</text>
+        
+        <!-- Attention -->
+        <rect x="300" y="50" width="200" height="80" fill="white" stroke="#2d3436" rx="5"/>
+        <text x="400" y="80" text-anchor="middle" font-size="14">Advanced Attention</text>
+        <text x="400" y="100" text-anchor="middle" font-size="12">MLA + GQA Mechanisms</text>
+        
+        <!-- Training -->
+        <rect x="550" y="50" width="200" height="80" fill="white" stroke="#2d3436" rx="5"/>
+        <text x="650" y="80" text-anchor="middle" font-size="14">Efficient Training</text>
+        <text x="650" y="100" text-anchor="middle" font-size="12">ESFT + FP8 Precision</text>
+    </g>
+
+    <!-- Connecting lines -->
+    <g fill="none" stroke="#2d3436" stroke-width="1" stroke-dasharray="5,5">
+        <!-- Base connections -->
+        <path d="M350 200 L400 200"/>
+        <path d="M700 200 L750 200"/>
+        
+        <!-- Specialized connections -->
+        <path d="M175 350 L175 300"/>
+        <path d="M475 350 L475 300"/>
+        <path d="M775 350 L775 300"/>
+        <path d="M1075 350 L1075 300"/>
+    </g>
+</svg>

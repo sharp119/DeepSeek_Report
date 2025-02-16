@@ -1,9 +1,14 @@
 # 🧠 DeepSeek AI Models Research Repository
 
-A comprehensive research repository dedicated to understanding and documenting the evolution and capabilities of DeepSeek AI's model ecosystem. This project explores various DeepSeek models through systematic analysis of publicly available information, covering developments through early 2025.
-
-[Model Evolution Timeline - To be added]
-> Visualization showing the chronological development of DeepSeek's model families
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+  <div style="flex-basis: 50%; text-align: center;">
+    A comprehensive research repository dedicated to understanding and documenting the evolution and capabilities of DeepSeek AI's model ecosystem. This project explores various DeepSeek models through systematic analysis of publicly available information, covering developments through early 2025.
+  </div>
+  <div style="flex-basis: 50%;">
+    <img src="images/model-timeline.png" alt="Model Evolution Timeline" width="100%" />
+    <p style="text-align: center;">Visualization showing the chronological development of DeepSeek's model families</p>
+  </div>
+</div>
 
 ## 📖 Repository Purpose
 
@@ -46,8 +51,11 @@ The DeepSeek-LLM family represents their text-based language models, characteriz
   - RL-based training approach
   - Comparable to OpenAI-o1 in specific domains
 
-[Model Architecture Diagram - To be added]
-> Technical visualization of model architectures and their relationships
+## Model Architecture Diagram
+
+<div style="padding: 1em; text-align: center;">
+  <img src="images/model-architecture.png" width="70%" />
+</div>
 
 ### Specialized Models
 

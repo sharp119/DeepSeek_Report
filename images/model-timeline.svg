@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+    <!-- Background -->
+    <rect width="1000" height="600" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="500" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#2d3436">DeepSeek Model Evolution Timeline</text>
+    
+    <!-- Timeline base -->
+    <line x1="100" y1="300" x2="900" y2="300" stroke="#2d3436" stroke-width="2"/>
+    
+    <!-- Timeline markers -->
+    <line x1="100" y1="290" x2="100" y2="310" stroke="#2d3436" stroke-width="2"/>
+    <text x="100" y="330" text-anchor="middle" font-size="12">July 2023</text>
+    
+    <line x1="300" y1="290" x2="300" y2="310" stroke="#2d3436" stroke-width="2"/>
+    <text x="300" y="330" text-anchor="middle" font-size="12">Nov 2023</text>
+    
+    <line x1="500" y1="290" x2="500" y2="310" stroke="#2d3436" stroke-width="2"/>
+    <text x="500" y="330" text-anchor="middle" font-size="12">Dec 2023</text>
+    
+    <line x1="700" y1="290" x2="700" y2="310" stroke="#2d3436" stroke-width="2"/>
+    <text x="700" y="330" text-anchor="middle" font-size="12">Jan 2025</text>
+    
+    <line x1="900" y1="290" x2="900" y2="310" stroke="#2d3436" stroke-width="2"/>
+    <text x="900" y="330" text-anchor="middle" font-size="12">Feb 2025</text>
+    
+    <!-- Model Family Lanes -->
+    <!-- Base Models -->
+    <g transform="translate(0, 100)">
+        <text x="50" y="200" text-anchor="end" font-size="14" font-weight="bold">Base Models</text>
+        
+        <!-- V2 -->
+        <circle cx="300" cy="200" r="15" fill="#74b9ff"/>
+        <text x="300" y="170" text-anchor="middle" font-size="12">DeepSeek-V2</text>
+        <text x="300" y="185" text-anchor="middle" font-size="10">236B params</text>
+        
+        <!-- V3 -->
+        <circle cx="700" cy="200" r="15" fill="#74b9ff"/>
+        <text x="700" y="170" text-anchor="middle" font-size="12">DeepSeek-V3</text>
+        <text x="700" y="185" text-anchor="middle" font-size="10">671B params</text>
+        
+        <!-- Connection line -->
+        <line x1="315" y1="200" x2="685" y2="200" stroke="#74b9ff" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Code Models -->
+    <g transform="translate(0, 150)">
+        <text x="50" y="200" text-anchor="end" font-size="14" font-weight="bold">Code Models</text>
+        
+        <!-- Coder V1 -->
+        <circle cx="100" cy="200" r="15" fill="#a8e6cf"/>
+        <text x="100" y="170" text-anchor="middle" font-size="12">DeepSeek-Coder</text>
+        <text x="100" y="185" text-anchor="middle" font-size="10">1.3B-33B</text>
+        
+        <!-- Coder V2 -->
+        <circle cx="500" cy="200" r="15" fill="#a8e6cf"/>
+        <text x="500" y="170" text-anchor="middle" font-size="12">DeepSeekCoder-V2</text>
+        
+        <!-- Connection line -->
+        <line x1="115" y1="200" x2="485" y2="200" stroke="#a8e6cf" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Math Models -->
+    <g transform="translate(0, 200)">
+        <text x="50" y="200" text-anchor="end" font-size="14" font-weight="bold">Math Models</text>
+        
+        <!-- Math -->
+        <circle cx="300" cy="200" r="15" fill="#ffd3b6"/>
+        <text x="300" y="170" text-anchor="middle" font-size="12">DeepSeek-Math</text>
+        
+        <!-- Prover -->
+        <circle cx="700" cy="200" r="15" fill="#ffd3b6"/>
+        <text x="700" y="170" text-anchor="middle" font-size="12">DeepSeek-Prover</text>
+    </g>
+    
+    <!-- Vision Models -->
+    <g transform="translate(0, 250)">
+        <text x="50" y="200" text-anchor="end" font-size="14" font-weight="bold">Vision Models</text>
+        
+        <!-- VL -->
+        <circle cx="300" cy="200" r="15" fill="#ff8b94"/>
+        <text x="300" y="170" text-anchor="middle" font-size="12">DeepSeek-VL</text>
+        
+        <!-- VL2 -->
+        <circle cx="700" cy="200" r="15" fill="#ff8b94"/>
+        <text x="700" y="170" text-anchor="middle" font-size="12">DeepSeek-VL2</text>
+        
+        <!-- Connection line -->
+        <line x1="315" y1="200" x2="685" y2="200" stroke="#ff8b94" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Legend -->
+    <g transform="translate(750, 50)">
+        <rect width="200" height="100" fill="white" stroke="#2d3436" stroke-width="1" rx="5"/>
+        <text x="10" y="20" font-size="12" font-weight="bold">Model Families</text>
+        
+        <circle cx="20" cy="40" r="6" fill="#74b9ff"/>
+        <text x="35" y="44" font-size="12">Base Models</text>
+        
+        <circle cx="20" cy="60" r="6" fill="#a8e6cf"/>
+        <text x="35" y="64" font-size="12">Code Models</text>
+        
+        <circle cx="20" cy="80" r="6" fill="#ffd3b6"/>
+        <text x="35" y="84" font-size="12">Math Models</text>
+        
+        <circle cx="120" cy="40" r="6" fill="#ff8b94"/>
+        <text x="135" y="44" font-size="12">Vision Models</text>
+    </g>
+</svg>
