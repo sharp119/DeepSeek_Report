@@ -84,8 +84,8 @@ The DeepSeek-LLM family represents their text-based language models, characteriz
   - Progressive improvements in vision-language tasks
   - MoE architecture in VL2
 
-[Model Capabilities Matrix - To be added]
-> Comparative visualization of model capabilities across different domains
+<!-- [Model Capabilities Matrix - To be added]
+> Comparative visualization of model capabilities across different domains -->
 
 ## 📂 Repository Structure
 
