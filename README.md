@@ -14,10 +14,9 @@
 </div>
 
 <p align="center">
-  <a href="#model-categories"><b>📚 Models</b></a> |
-  <a href="#repository-structure"><b>📂 Structure</b></a> |
-  <a href="#research-methodology"><b>🔍 Methodology</b></a> |
-  <a href="#technical-analyses"><b>⚡ Analyses</b></a>
+  <a href="#model-evolution"><b>📚 Model Evolution</b></a> |
+  <a href="#repository-purpose"><b>📂 Repository Purpose</b></a> |
+  <a href="#research-methodology"><b>🔍 Research Methodology</b></a>
 </p>
 
 ## 📚 Model Evolution
