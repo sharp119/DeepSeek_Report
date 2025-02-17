@@ -1,14 +1,33 @@
 # 🧠 DeepSeek AI Models Research Repository
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-  <div style="flex-basis: 50%; text-align: center;">
-    A comprehensive research repository dedicated to understanding and documenting the evolution and capabilities of DeepSeek AI's model ecosystem. This project explores various DeepSeek models through systematic analysis of publicly available information, covering developments through early 2025.
-  </div>
-  <div style="flex-basis: 50%;">
-    <img src="images/model-timeline.png" alt="Model Evolution Timeline" width="100%" />
-    <p style="text-align: center;">Visualization showing the chronological development of DeepSeek's model families</p>
-  </div>
+<div align="center">
+  <a href="https://huggingface.co/collections/deepseek-ai/deepseek-r1-678e1e131c0169c0bc89728d" target="_blank">
+    <img alt="HuggingFace" src="https://img.shields.io/badge/🤗%20HuggingFace-Research%20Collection-ffc107?color=ffc107&logoColor=white" />
+  </a>
+  <a href="https://huggingface.co/deepseek-ai" target="_blank">
+    <img alt="Models" src="https://img.shields.io/badge/🚀%20Models-DeepSeek%20AI-536af5?color=536af5&logoColor=white" />
+  </a>
 </div>
+
+<div align="center">
+  <p>🔍 Research repository exploring DeepSeek AI's model evolution and architectures (2023-2025). Analyzes language, code, math, and vision models using HuggingFace collections. 📚 A personal learning journey into understanding these advanced AI systems.</p>
+</div>
+
+<p align="center">
+  <a href="#model-categories"><b>📚 Models</b></a> |
+  <a href="#repository-structure"><b>📂 Structure</b></a> |
+  <a href="#research-methodology"><b>🔍 Methodology</b></a> |
+  <a href="#technical-analyses"><b>⚡ Analyses</b></a>
+</p>
+
+## 📚 Model Evolution
+
+<div align="center" style="padding: 1em;">
+  <img src="images/model-timeline.png" alt="DeepSeek Model Timeline" width="100%" />
+</div>
+
+The timeline above illustrates the evolution of DeepSeek's model families, from the initial V2 to specialized variants in code, math, and vision domains.
+
 
 ## 📖 Repository Purpose
 
